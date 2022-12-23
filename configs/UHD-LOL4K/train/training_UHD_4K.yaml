@@ -1,0 +1,25 @@
+# Training configuration
+GPU: [0]
+
+VERBOSE: False
+
+MODEL:
+  MODE: 'LLFormer_UHD-LOL4k'
+
+# Optimization arguments.
+OPTIM:
+  BATCH: 12
+  EPOCHS: 300
+  # EPOCH_DECAY: [10]
+  LR_INITIAL: 1e-4
+  LR_MIN: 1e-6
+  # BETA1: 0.9
+
+TRAINING:
+  VAL_AFTER_EVERY: 5
+  RESUME: False
+  TRAIN_PS: 128
+  VAL_PS: 128
+  TRAIN_DIR: './datasets/UHD-LOL4K/train'       # path to training data
+  VAL_DIR: './datasets/UHD-LOL8K/testing' # path to validation data
+  SAVE_DIR: './checkpoints'           # path to save models and images
