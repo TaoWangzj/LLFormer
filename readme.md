@@ -19,8 +19,9 @@
 
 
 #### News
-- **Dec 23, 2022:** codes are released!
 - **Dec 23, 2022:** homepage is released!
+- **Dec 23, 2022:** codes are coming soon!
+
 
 This repository contains the code and pre-trained models for our paper. Please refer to our [project page](https://taowangzj.github.io/projects/LLFormer/) for a quick project overview.
 
