@@ -19,7 +19,7 @@
 
 
 #### News
-- **Dec 23, 2022:** codes is released!
+- **Dec 23, 2022:** code is released!
 - **Dec 23, 2022:** homepage is released!
 
 
