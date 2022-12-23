@@ -96,7 +96,7 @@ If you have any questions, please contact taowangzj@gmail.com
 
 ## Our Related Works
 - Benchmarking Ultra-High-Definition Image Super-resolution, ICCV 2021. [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_Benchmarking_Ultra-High-Definition_Image_Super-Resolution_ICCV_2021_paper.pdf) | [Code](https://github.com/HDCVLab/UHD4K_UHD8K)
-- MC-Blur: A Comprehensive Benchmark for Image Deblurring, arXiv 2022. [Paper](https://arxiv.org/abs/2102.02808) | [Code](https://github.com/HDCVLab/MC-Blur-Dataset)
+- MC-Blur: A Comprehensive Benchmark for Image Deblurring, arXiv 2022. [Paper](https://arxiv.org/pdf/2112.00234.pdf) | [Code](https://github.com/HDCVLab/MC-Blur-Dataset)
 
 
 
