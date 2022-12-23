@@ -88,7 +88,7 @@ If UHDLOL benchmark and LLFormer help your research or work, please consider cit
 
 ### Contact
 
-If you have any questions, please contact taowang@gmail.com
+If you have any questions, please contact taowangzj@gmail.com
 
 ---
 
