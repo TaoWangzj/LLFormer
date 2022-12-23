@@ -45,8 +45,8 @@ pip install matplotlib scikit-image opencv-python yacs joblib natsort h5py tqdm
 Install warmup scheduler
 
 ```
-git clone https://github.com/TaoWangzj/LLFormer-main.git
-cd LLFormer-main
+git clone https://github.com/TaoWangzj/LLFormer.git
+cd LLFormer
 cd pytorch-gradual-warmup-lr; python setup.py install; cd ..
 ```
 
