@@ -64,7 +64,7 @@ cd pytorch-gradual-warmup-lr; python setup.py install; cd ..
 
 
 ### Citations
-If UHDLOL benchmark and LLFormer baseline method help your research or work, please consider citing:
+If UHDLOL benchmark and LLFormer help your research or work, please consider citing:
 
 ```
     @inproceedings{Wang2022LLFormer
@@ -72,6 +72,14 @@ If UHDLOL benchmark and LLFormer baseline method help your research or work, ple
         author={Tao Wang, Kaihao Zhang, Tianrun Shen, Wenhan Luo, Bjorn Stenger, Tong Lu},
         booktitle={AAAI},
         year={2023}
+    }
+    
+    @inproceedings{zhang2021benchmarking,
+      title={Benchmarking ultra-high-definition image super-resolution},
+      author={Zhang, Kaihao and Li, Dongxu and Luo, Wenhan and Ren, Wenqi and Stenger, Bjorn and Liu, Wei and Li, Hongdong and Yang, Ming-Hsuan},
+      booktitle={ICCV},
+      pages={14769--14778},
+      year={2021}
     }
 ```
 
