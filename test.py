@@ -19,7 +19,7 @@ parser = argparse.ArgumentParser(description='Demo Low-light Image Enhancement')
 parser.add_argument('--input_dir', default='./datasets/LOL/test/low/', type=str, help='Input images')
 parser.add_argument('--result_dir', default='./results/LOL/', type=str, help='Directory for results')
 parser.add_argument('--weights',
-                    default='./checkpoints/LLFormer/models/model_bestPSNR.pth', type=str,
+                    default='./checkpoints/LOL/models/model_bestPSNR.pth', type=str,
                     help='Path to weights')
 
 args = parser.parse_args()
@@ -71,7 +71,7 @@ for file_ in files:
     img = Image.open(file_).convert('RGB')
     input_ = TF.to_tensor(img).unsqueeze(0).cuda()
 
-    # Pad the input if not_multiple_of 8
+    # Pad the input if not_multiple_of 16
     h, w = input_.shape[2], input_.shape[3]
     H, W = ((h + mul) // mul) * mul, ((w + mul) // mul) * mul
     padh = H - h if h % mul != 0 else 0
