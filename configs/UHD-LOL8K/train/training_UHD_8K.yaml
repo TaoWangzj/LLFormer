@@ -21,5 +21,5 @@ TRAINING:
   TRAIN_PS: 128
   VAL_PS: 128
   TRAIN_DIR: './datasets/UHD-LOL8K/train'       # path to training data
-  VAL_DIR: './datasets/UHD-LOL8K/train' # path to validation data
+  VAL_DIR: './datasets/UHD-LOL8K/test' # path to validation data
   SAVE_DIR: './checkpoints'           # path to save models and images
