@@ -140,11 +140,11 @@ You need to modify the config for your own training environment
 If UHDLOL benchmark and LLFormer help your research or work, please consider citing:
 
 ```
-    @inproceedings{Wang2022LLFormer
-        title={Ultra-High-Definition Low-Light Image Enhancement: A Benchmark and Transformer-Based Method}, 
-        author={Tao Wang, Kaihao Zhang, Tianrun Shen, Wenhan Luo, Bjorn Stenger, Tong Lu},
-        booktitle={AAAI},
-        year={2023}
+    @article{wang2022ultra,
+     title={Ultra-High-Definition Low-Light Image Enhancement: A Benchmark and Transformer-Based Method},
+     author={Wang, Tao and Zhang, Kaihao and Shen, Tianrun and Luo, Wenhan and Stenger, Bjorn and Lu, Tong},
+     journal={arXiv preprint arXiv:2212.11548},
+     year={2022}
     }
     
     @inproceedings{zhang2021benchmarking,
