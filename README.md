@@ -1,5 +1,5 @@
 
-## Ultra-High-Definition Low-Light Image Enhancement: A Benchmark and Transformer-Based Method
+## Ultra-High-Definition Low-Light Image Enhancement: A Benchmark and Transformer-Based Method (AAAI 2023 -- Oral)
 
 
 [Tao Wang](https://scholar.google.com/citations?user=TsDufoMAAAAJ&hl=en), [Kaihao Zhang](https://scholar.google.com/citations?user=eqwDXdMAAAAJ&hl=en), [Tianrun Shen](https://scholar.google.com/citations?hl=en&user=BKCgZL4AAAAJ), [Wenhan Luo](https://scholar.google.com/citations?user=g20Q12MAAAAJ&hl=en), [Bjorn Stenger](https://scholar.google.com/citations?user=plhjgHUAAAAJ&hl=en), [Tong Lu](https://cs.nju.edu.cn/lutong/index.htm)
@@ -19,6 +19,7 @@
 
 
 #### News
+- **Jan 11, 2023:** Our paper is selected for an ORAL presentation at AAAI 2023
 - **Dec 24, 2022:** Pre-trained models are released!
 - **Dec 23, 2022:** Codes is released!
 - **Dec 23, 2022:** Homepage is released!
