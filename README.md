@@ -74,8 +74,8 @@ cd pytorch-gradual-warmup-lr; python setup.py install; cd ..
 ### Dataset
 You can use the following links to download the datasets
 
-1. UHD-LOL4K [[Google drive](https://drive.google.com/drive/folders/1fVQTVhPpu-ONFV8rErIWq84mGn6ielMD?usp=sharing)|[Baidu drive](https://taowangzj.github.io/projects/LLFormer/)]
-2. UHD-LOL8K [[Google drive](https://drive.google.com/drive/folders/170XklSO4Qy2ad4heLFLVu9P39OZEVr70?usp=sharing)|[Baidu drive](https://taowangzj.github.io/projects/LLFormer/)]
+1. UHD-LOL4K [[OneDrive](https://mailnwpueducn-my.sharepoint.com/:f:/g/personal/2018302756_mail_nwpu_edu_cn/EjqLBUb2ADxJhNIUpu-qFwABvbQcqboj9nIgOI4p-_0IZw)|[Baidu drive](https://taowangzj.github.io/projects/LLFormer/)]
+2. UHD-LOL8K [[OneDrive](https://mailnwpueducn-my.sharepoint.com/:f:/g/personal/2018302756_mail_nwpu_edu_cn/EjvKxNsL9vtPp2n15qNX__YBfZtA2g8KEFGNne52jMcImg)|[Baidu drive](https://taowangzj.github.io/projects/LLFormer/)]
 3. LOL [[Link](https://daooshee.github.io/BMVC2018website/)]
 4. MIT-Adobe FiveK [[Link](https://github.com/FanChiMao/HWMNet/blob/main/datasets/README.md)]
 
