@@ -125,7 +125,7 @@ python test_UHD.py --input_dir your_data_path --result_dir your_save_path --weig
 2. Generate image patches from full-resolution training images of UHD-LOL dataset
 
 ```
-python generate_patches_UHD-LOL.py 
+python scripts/extract_subimages_UHD.py
 ```
 
 3. To train LLFormer, run
