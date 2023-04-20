@@ -130,7 +130,7 @@ python scripts/extract_subimages_UHD.py
 
 3. To train LLFormer, run
 ```bash
-python train.py --opt your_config_path
+python train.py -yml_path your_config_path
 ```
 ```
 You need to modify the config for your own training environment
