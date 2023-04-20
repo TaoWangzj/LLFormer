@@ -17,7 +17,7 @@ OPTIM:
 
 TRAINING:
   VAL_AFTER_EVERY: 1
-  RESUME: True
+  RESUME: False
   TRAIN_PS: 128
   VAL_PS: 128
   TRAIN_DIR: './datasets/LOL/train'       # path to training data
