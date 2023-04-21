@@ -19,8 +19,8 @@ class DataLoaderTrain(Dataset):
         inp_files = sorted(os.listdir(os.path.join(rgb_dir, 'low')))
         tar_files = sorted(os.listdir(os.path.join(rgb_dir, 'high')))
 
-        self.inp_filenames = [os.path.join(rgb_dir, 'low_sub', x) for x in inp_files if is_image_file(x)]
-        self.tar_filenames = [os.path.join(rgb_dir, 'high_sub', x) for x in tar_files if is_image_file(x)]
+        self.inp_filenames = [os.path.join(rgb_dir, 'low', x) for x in inp_files if is_image_file(x)]
+        self.tar_filenames = [os.path.join(rgb_dir, 'high', x) for x in tar_files if is_image_file(x)]
 
         self.img_options = img_options
         self.sizex = len(self.tar_filenames)  # get the size of target
@@ -94,11 +94,11 @@ class DataLoaderVal(Dataset):
     def __init__(self, rgb_dir, img_options=None, rgb_dir2=None):
         super(DataLoaderVal, self).__init__()
 
-        inp_files = sorted(os.listdir(os.path.join(rgb_dir, 'low_sub')))
-        tar_files = sorted(os.listdir(os.path.join(rgb_dir, 'high_sub')))
+        inp_files = sorted(os.listdir(os.path.join(rgb_dir, 'low')))
+        tar_files = sorted(os.listdir(os.path.join(rgb_dir, 'high')))
 
-        self.inp_filenames = [os.path.join(rgb_dir, 'low_sub', x) for x in inp_files if is_image_file(x)]
-        self.tar_filenames = [os.path.join(rgb_dir, 'high_sub', x) for x in tar_files if is_image_file(x)]
+        self.inp_filenames = [os.path.join(rgb_dir, 'low', x) for x in inp_files if is_image_file(x)]
+        self.tar_filenames = [os.path.join(rgb_dir, 'high', x) for x in tar_files if is_image_file(x)]
 
         self.img_options = img_options
         self.sizex = len(self.tar_filenames)  # get the size of target
@@ -135,11 +135,11 @@ class DataLoaderVal_(Dataset):
     def __init__(self, rgb_dir, img_options=None, rgb_dir2=None):
         super(DataLoaderVal_, self).__init__()
 
-        inp_files = sorted(os.listdir(os.path.join(rgb_dir, 'low_sub')))
-        tar_files = sorted(os.listdir(os.path.join(rgb_dir, 'high_sub')))
+        inp_files = sorted(os.listdir(os.path.join(rgb_dir, 'low')))
+        tar_files = sorted(os.listdir(os.path.join(rgb_dir, 'high')))
 
-        self.inp_filenames = [os.path.join(rgb_dir, 'low_sub', x) for x in inp_files if is_image_file(x)]
-        self.tar_filenames = [os.path.join(rgb_dir, 'high_sub', x) for x in tar_files if is_image_file(x)]
+        self.inp_filenames = [os.path.join(rgb_dir, 'low', x) for x in inp_files if is_image_file(x)]
+        self.tar_filenames = [os.path.join(rgb_dir, 'high', x) for x in tar_files if is_image_file(x)]
 
         self.img_options = img_options
         self.sizex = len(self.tar_filenames)  # get the size of target
@@ -199,11 +199,11 @@ class DataLoaderTest_(Dataset):
 
         self.target_transform = target_transform
 
-        clean_files = sorted(os.listdir(os.path.join(rgb_dir, 'low_sub')))
-        noisy_files = sorted(os.listdir(os.path.join(rgb_dir, 'high_sub')))
+        clean_files = sorted(os.listdir(os.path.join(rgb_dir, 'low')))
+        noisy_files = sorted(os.listdir(os.path.join(rgb_dir, 'high')))
 
-        self.clean_filenames = [os.path.join(rgb_dir, 'low_sub', x) for x in clean_files if is_image_file(x)]
-        self.noisy_filenames = [os.path.join(rgb_dir, 'high_sub', x) for x in noisy_files if is_image_file(x)]
+        self.clean_filenames = [os.path.join(rgb_dir, 'low', x) for x in clean_files if is_image_file(x)]
+        self.noisy_filenames = [os.path.join(rgb_dir, 'high', x) for x in noisy_files if is_image_file(x)]
 
         self.tar_size = len(self.clean_filenames)
 
