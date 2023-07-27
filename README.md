@@ -184,7 +184,8 @@ This implementation is based on / inspired by:
 <details>
 <summary>statistics</summary>
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=TaoWangzj/LLFormer)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=TaoWangzj/LLFormer)
+
 
 </details>
 
