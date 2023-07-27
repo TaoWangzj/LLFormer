@@ -86,7 +86,7 @@ We provide the pre-trained models under different datasets:
 - LLFormer trained on UHD-LOL8K [[Google drive](https://drive.google.com/drive/folders/1O9MHWAo8gyxhxqTVoCmFxJXcKhWjYzeE?usp=share_link)| [Baidu drive](https://pan.baidu.com/s/1R7AbnS9wweA52RCKPWRh7w?pwd=iv81)] with training config file `./configs/UHD-LOL8K/train/training_UHD_8K.yaml`.
 
 - LLFormer trained on LOL [[Google drive](https://drive.google.com/drive/folders/1J7NvvPsCtT0j8Rd9ombJ6sVIC6v0Xweb?usp=share_link)|[Baidu drive](https://pan.baidu.com/s/18QBMVHWGfvnlMKF-g0go9Q?pwd=41ty)] with training config file `./configs/LOL/train/training_LOL.yaml`
-- LLFormer trained on MIT-Adobe FiveK [[Google drive](https://drive.google.com/drive/folders/1CmZC2drX2t3H9U4zq4DvOlsP03J7AYXy?usp=share_link)|[Baidu drive](https://pan.baidu.com/s/1GHFkOOaRLS-4fK_TiRV5Sw?pwd=wij3)] with training config file `./configs/MIT-Adobe-FiveK/train/training_MIT_5K.yaml`.
+- LLFormer trained on MIT-Adobe FiveK [[Google drive](https://drive.google.com/drive/folders/1CmZC2drX2t3H9U4zq4DvOlsP03J7AYXy?usp=share_link)|[Baidu drive](https://pan.baidu.com/s/1qBru615T0OoThGMJzs2giQ?pwd=gkhu)] with training config file `./configs/MIT-Adobe-FiveK/train/training_MIT_5K.yaml`.
 
 
 ### Test
