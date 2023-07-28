@@ -90,8 +90,8 @@ We provide the pre-trained models under different datasets:
 
 ### Visual comparison results 
 We provide the visual results of all existing methods in Table 2 on LOL and MIT-Adobe FiveK datasets
-- Visual results on LOL dataset [Baidu drive](https://pan.baidu.com/s/1NjdWo1j33mxTJV7rLe1zPA?pwd=awbm)].
-- Visual results on MIT-Adobe FiveK dataset [Baidu drive](https://pan.baidu.com/s/1BkDHPwTml1IB5ZVbiPMoRw?pwd=o54t)].
+- Visual results on LOL dataset [[Baidu drive](https://pan.baidu.com/s/1NjdWo1j33mxTJV7rLe1zPA?pwd=awbm)].
+- Visual results on MIT-Adobe FiveK dataset [[Baidu drive](https://pan.baidu.com/s/1BkDHPwTml1IB5ZVbiPMoRw?pwd=o54t)].
 
 
 
