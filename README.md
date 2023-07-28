@@ -88,6 +88,12 @@ We provide the pre-trained models under different datasets:
 - LLFormer trained on LOL [[Google drive](https://drive.google.com/drive/folders/1J7NvvPsCtT0j8Rd9ombJ6sVIC6v0Xweb?usp=share_link)|[Baidu drive](https://pan.baidu.com/s/18QBMVHWGfvnlMKF-g0go9Q?pwd=41ty)] with training config file `./configs/LOL/train/training_LOL.yaml`
 - LLFormer trained on MIT-Adobe FiveK [[Google drive](https://drive.google.com/drive/folders/1CmZC2drX2t3H9U4zq4DvOlsP03J7AYXy?usp=share_link)|[Baidu drive](https://pan.baidu.com/s/1qBru615T0OoThGMJzs2giQ?pwd=gkhu)] with training config file `./configs/MIT-Adobe-FiveK/train/training_MIT_5K.yaml`.
 
+### Visual comparison results 
+We provide the visual results of all existing methods in Table 2 on LOL and MIT-Adobe FiveK datasets
+- Visual results on LOL dataset [Baidu drive](https://pan.baidu.com/s/1NjdWo1j33mxTJV7rLe1zPA?pwd=awbm)].
+- Visual results on MIT-Adobe FiveK dataset [Baidu drive](https://pan.baidu.com/s/1BkDHPwTml1IB5ZVbiPMoRw?pwd=o54t)].
+
+
 
 ### Test
 You can directly test the pre-trained model as follows
