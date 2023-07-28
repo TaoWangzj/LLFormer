@@ -147,14 +147,16 @@ You need to modify the config for your own training environment
 If UHDLOL benchmark and LLFormer help your research or work, please consider citing:
 
 ```
-    @article{wang2022ultra,
-     title={Ultra-High-Definition Low-Light Image Enhancement: A Benchmark and Transformer-Based Method},
-     author={Wang, Tao and Zhang, Kaihao and Shen, Tianrun and Luo, Wenhan and Stenger, Bjorn and Lu, Tong},
-     journal={arXiv preprint arXiv:2212.11548},
-     year={2022}
-    }
-    
-    @inproceedings{zhang2021benchmarking,
+@inproceedings{wang2023ultra,
+  title={Ultra-high-definition low-light image enhancement: A benchmark and transformer-based method},
+  author={Wang, Tao and Zhang, Kaihao and Shen, Tianrun and Luo, Wenhan and Stenger, Bjorn and Lu, Tong},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={3},
+  pages={2654--2662},
+  year={2023}
+}
+ @inproceedings{zhang2021benchmarking,
       title={Benchmarking ultra-high-definition image super-resolution},
       author={Zhang, Kaihao and Li, Dongxu and Luo, Wenhan and Ren, Wenqi and Stenger, Bjorn and Liu, Wei and Li, Hongdong and Yang, Ming-Hsuan},
       booktitle={ICCV},
